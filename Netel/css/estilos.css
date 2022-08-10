@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#tudoo{
+    background-color: black;
+}
+#tudo{
+    display: flex;
+    justify-content: center;
+}
+#topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #737373;
+    width: 80vw;
+    padding: 4px;
+    margin: 3px;
+    border-radius: 3px;
+}
+#topo li{
+    display: inline-block;
+}
+#topo li>a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+#banner{
+    display: flex;
+    background-image: url('../img/banner.jpg');
+    height: 400px;
+    background-size: auto;
+    color: white;
+   justify-content: center;
+    align-items: center; 
+}
+#equipe{
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+}
+#corpo{
+    display: flex;
+    justify-content: space-between;
+}
+#laranja, #azul, #amarelo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    flex-direction: column;
+
+}
+#laranja{
+    background-color: #c14000;
+}
+.team{
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.linkedin{
+    height: 45px;
+    width: 45px;
+}
+.link{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    justify-content: end;
+    border: 2px solid white;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+#laranja>h2{
+    margin-top: 20px;
+}
+#laranja p{
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+
+#laranja a>h3{
+    margin-left: 15px;
+}
+#azul{
+    background-color: #009987;
+}
+
+
+#azul h2{
+    margin-top: 20px;
+}   
+#azul p{
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+
+}
+#azul a>h3{
+    margin-left: 15px;
+}
+#amarelo{
+    background-color: #FFAA00;
+}
+
+#amarelo h2{
+    margin-top: 20px;
+}   
+#amarelo p{
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+#amarelo a>h3{
+    margin-left: 15px;
+}
+#nosso-negocio{
+    display: flex;
+    margin: 100px;
+    width: 80vw;
+    background-color: #C4C4C4;
+}
+#nosso-negocio nav{
+    display: flex;
+    
+    
+}
+#nosso-negocio img{
+    
+    margin: 5px;
+    height: auto;
+    width: 295px;
+}
+#nosso-negocio h2{
+    margin-left: 350px;
+    margin-top: 20px;
+}
+#projetos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    margin: 20px;
+}
+#imagens{
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
